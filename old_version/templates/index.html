@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stripe Checkout</title>
+</head>
+<body>
+<div>
+<h2>〇〇 70円</h2>
+<form action="/charge" method="post">
+<script
+src="https://checkout.stripe.com/checkout.js"
+class="stripe-button"
+data-key="pk_test_6UDqKAb74YOfy4Jj3NhC02vR"
+data-description="A Flask Charge(old)"
+data-amount="70"
+data-locale="auto">
+</script>
+</form>
+
+
+</body>
+</html>
+<!-- var stripe = Stripe('pk_test_6UDqKAb74YOfy4Jj3NhC02vR'); -->
